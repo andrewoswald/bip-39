@@ -1,0 +1,24 @@
+[package]
+name = "bip-39"
+version = "0.1.0"
+authors = ["aoswald"]
+
+[features]
+chinese_simplified = []
+chinese_traditional = []
+czech = []
+english = []
+french = []
+italian = []
+japanese = []
+korean = []
+portuguese = []
+spanish = []
+
+[dependencies]
+
+bs58 = "0.2.2"
+rand = "0.5.5"
+rpassword = "2.0.0"
+rust-crypto = "^0.2"
+hex = "0.4.3"
